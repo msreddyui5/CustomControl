@@ -4,6 +4,7 @@
 			<Page title="Add new fruit">
 				<content>
 					<Label text="this page is under construction"></Label>
+					<Input type="Text" valueHelpOnly="true"> </Input>
 				</content>
 			</Page>
 	
