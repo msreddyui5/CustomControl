@@ -1,0 +1,10 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="oft.fiori.nov.controller.Add"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+
+			<Page title="Add new fruit">
+				<content>
+					<Label text="this page is under construction"></Label>
+				</content>
+			</Page>
+	
+</mvc:View>

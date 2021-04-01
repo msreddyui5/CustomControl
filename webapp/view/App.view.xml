@@ -1,0 +1,9 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="oft.fiori.nov.controller.App"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+<!--	<App id="idApp">
+		</App>-->
+		<SplitApp  id="idApp">
+			
+			
+		</SplitApp>
+</mvc:View>

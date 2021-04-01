@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<script src = "http://sapui5.hana.ondemand.com/resources/sap-ui-core.js" 
+		data-sap-ui-libs ="sap.m, sap.ui.layout,sap.ui.table"
+		data-sap-ui-theme ="sap_bluecrystal"
+		data-sap-ui-xx-bindingSyntax="complex"
+		data-sap-ui-resourceroots='{
+		"oft.fiori.nov": "./"
+			}'>
+		</script>
+	<!--	<link href= "css/myStyle.css" rel="stylesheet" type ="text/css"> -->
+		
+		<script>
+	
+/*	var oAnubhav = new sap.ui.view("idSpiderman",{
+		viewName: "jerry.view.Anubhav",
+		type: "JS"
+		
+	});*/
+	
+	
+	sap.ui.getCore().attachInit(function(){
+  // object to test componet.js
+  // IT WILL CREATE INSTANCE OF COMPONENT.JS
+  
+  var ComponetContainer = new sap.ui.core.ComponentContainer({
+  	name:"oft.fiori.nov"
+  });
+  
+ /* new sap.m.shell({                   //it will reduce screen width it is a old style now not using
+  	app:ComponetContainer                //wrapper around the app
+  	title:"http://onlinefioritrainings.com"
+  }),placeAt("content");*/
+	ComponetContainer.placeAt("content");	
+		
+	});
+
+</script>
+</head>
+	<body class="sapUiBody">
+		<div id="content"></div>
+	</body>
+</html>

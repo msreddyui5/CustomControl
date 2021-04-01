@@ -1,0 +1,258 @@
+{
+	"fruits": [{
+			"name": "Banana",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfYYZj5qJfkeweKWyxxMOQ17-_PxSPxNeI4BO6wGir_w1f0Z1I",
+			"healthBenefit": "Digestion",
+			"color": "Yellow",
+			"price": "50",
+			"currency": "INR",
+			"type": "berry",
+			"address":[{
+					"street":"st.johanas street",
+					"city":"jaipur"
+					},
+			        {
+					"street":"sri chakra street",
+					"city":"nagpur"
+				}
+				]
+		},
+
+		{
+			"name": "Apple",
+			"image": "data:image/jpeg;base64,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",
+			"healthBenefit": "Cancer",
+			"color": "Red",
+			"price": "250",
+			"currency": "INR",
+			"type": "Rosaceae",
+				"address":[
+				{
+					"street":"hitech city",
+					"city":"hyderabad"
+					},
+				{
+					"street":"madinaguda",
+					"city":"hyderabad"
+				}
+				]
+		},
+		{
+			"name": "grapes",
+			"image": "https://img.etimg.com/thumb/width-640,height-480,imgsize-961508,resizemode-1,msid-66115553/india-may-see-bumper-grape-output-this-year.jpg",
+			"healthBenefit": "Blood",
+			"color": "black",
+			"price": "1",
+			"currency": "USD",
+			"type": "BITTER",
+				"address":[
+				{
+					"street":"st.johanas street",
+					"city":"bangalore"
+					},
+				{
+					"street":"ammerpet",
+					"city":"hyderabd"
+				}
+				]
+		}, {
+			"name": "Mango",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR46mqnq-kFPDKbZ8jKKsega5J_3cKGKJVsKMOH4prR1sH_-MPz",
+			"healthBenefit": "good for heart",
+			"color": "Yellow",
+			"price": "450",
+			"currency": "INR",
+			"type": "sweet",
+				"address":[
+				{
+					"street":"st.johanas street",
+					"city":"jaipur"
+					},
+				{
+					"street":"sri chakra street",
+					"city":"nagpur"
+				}
+				]
+		}, {
+			"name": "kiwi",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSINveGANZxedCAdmFmvjuTWeM4hpt3Yx9B9rYzr4cokGTE0BEH",
+			"healthBenefit": "skin",
+			"color": "brown",
+			"price": "5",
+			"currency": "UKD",
+			"type": "POMOGRANATE",
+				"address":[
+				{
+					"street":"st.johanas street",
+					"city":"jaipur"
+					},
+				{
+					"street":"sri chakra street",
+					"city":"nagpur"
+				}
+				]
+		},
+		{
+			"name": "kiwi",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSINveGANZxedCAdmFmvjuTWeM4hpt3Yx9B9rYzr4cokGTE0BEH",
+			"healthBenefit": "skin",
+			"color": "brown",
+			"price": "5",
+			"currency": "UKD",
+			"type": "POMOGRANATE",
+				"address":[
+				{
+					"street":"st. koimbed street",
+					"city":"chennai"
+					},
+				{
+					"street":"miyapur road",
+					"city":"hyderabad"
+				}
+				]
+		},
+		{
+			"name": "kiwi",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSINveGANZxedCAdmFmvjuTWeM4hpt3Yx9B9rYzr4cokGTE0BEH",
+			"healthBenefit": "skin",
+			"color": "brown",
+			"price": "5",
+			"currency": "UKD",
+			"type": "POMOGRANATE",
+				"address":[
+				{
+					"street":"whitefield road",
+					"city":"bangalore"
+					},
+				{
+					"street":"porur",
+					"city":"chennai"
+				}
+				]
+		},
+		{
+			"name": "alkaline",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSINveGANZxedCAdmFmvjuTWeM4hpt3Yx9B9rYzr4cokGTE0BEH",
+			"healthBenefit": "skin",
+			"color": "brown",
+			"price": "5",
+			"currency": "UKD",
+			"type": "alkaline",
+				"address":[
+				{
+					"street":"marthalli stret",
+					"city":"nagpur"
+					},
+				{
+					"street":"saint brigade road",
+					"city":"Bangalore"
+				}
+				]
+		}
+
+	],
+	"suppliers": [{
+			"name":"MADHU TRAVELS",
+			"city":"VIZAQ",
+			"sinceWhen":"1990 ",
+			"owner":"MADHU",
+			"currency":"INTR",
+			"status":"out of market"
+		},
+		{
+			"name":"PRATIK TRAVLES",
+			"city":"Mumbai",
+			"sinceWhen":"2000",
+			"owner":"pratik",
+			"currency":"AED",
+			"status":"Not Registered"
+		},
+		{
+			"name":"UMESH travels",
+			"city":"nagpur",
+			"sinceWhen":"2005",
+			"owner": "umesh mudaliar",
+			"currency":"SGD",
+			"status":"out of market"
+		},
+		{
+			"name":"SUMIT TAVELS ",
+			"city":"CHENNAI",
+			"sinceWhen":"2010",
+			"owner":"SUMIT PAKHALE",
+			"currency":"INR",
+			"status":"Registered"
+		},
+		{
+			"name": "MULT AXEL CONSULTANCY",
+			"city": "DELHI",
+			"sinceWhen": "2007",
+			"owner": "MOHAN RAO ",
+			"currency": "inr",
+			"status":"Not Registered"
+		},
+			{
+			"name": "VBR CONSULTANCY",
+			"city": "ALLAGADDA",
+			"sinceWhen": "2003",
+			"owner": "VAIBHAV ",
+			"currency": "inr",
+			"status":"out of market"
+		},
+			{
+			"name": "JAGAN CONSULTANCY",
+			"city": "DELHI",
+			"sinceWhen": "2008",
+			"owner": "JAGAN ",
+			"currency": "inr",
+			"status":"Registered"
+		},
+			{
+			"name": "ORANGE CONSULTANCY",
+			"city": "PUNE",
+			"sinceWhen": "2019",
+			"owner": " NARASIMHA",
+			"currency": "inr",
+			"status":"Not Registered"
+		}
+
+
+
+	],
+	"city": [{
+			"cityName":"HYDERABAD ",
+			"famousFor":"BIRYANI",
+			"state":"Telangana",
+			"country":"india",
+			"population":"5M"
+		},
+		{
+			"cityName":"Toronto",
+			"famousFor":"Architecture",
+			"state":"Ontario",
+			"country":"Cnada",
+			"population":"3.5m"
+		},
+		{
+			"cityName":"colombo",
+			"famousFor":"beaches",
+			"state":"colombo",
+			"country":"Srilanka",
+			"population":"6.5m"
+		},
+		{
+			"cityName":"syndney",
+			"famousFor":"Desert",
+			"state":"New South Wales",
+			"country":"Australia",
+			"population":"6.5m"
+		}
+
+
+
+
+
+	]
+
+
+}

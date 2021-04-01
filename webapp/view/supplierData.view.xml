@@ -1,0 +1,12 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="oft.fiori.nov.controller.supplierData"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+
+			<Page title="{supplier Data for {status}" showNavButton="true" navButtonPress="onBack">
+				<content>
+					<ObjectHeader title="{name}" intro="{city}" number="{sinceWhen}"  numberUnit="{currency}" icon="sap-icon://supplier">
+						
+					</ObjectHeader>
+				</content>
+			</Page>
+	
+</mvc:View>

@@ -1,0 +1,110 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:anubhav ="oft.fiori.nov.customControls"  controllerName="oft.fiori.nov.controller.View2">
+	<Page title="View 2">
+		<!--showNavButton="true" navButtonPress="onBack"-->
+		<!--	<headerContent>
+					<Button icon="sap-icon://nav-back" press="onBack"> </Button>
+					
+				</headerContent>-->
+		<content>
+			<!--	<Button text="Back" press="onBack"> </Button>-->
+			<!--<Label text="{name}"></Label>-->
+			<ObjectHeader id="idHeader" intro="{healthBenefit}" title="{name}" number="{price}" numberunit="{currency}" icon="{image}"/>
+			<IconTabBar>
+				<items>
+					<IconTabFilter text="Addition Info" key="idAi" icon="sap-icon://tag" iconColor="Negative">
+						<content>
+							<anubhav:Heading mario="Red" magic="Madhu is here">  </anubhav:Heading>
+								<anubhav:Heading mario="blue" border="5px dashed red" magic="madhu understand ui5">  </anubhav:Heading>
+								<Button text="madhu HOVER ME"  press="onMadhu"/>
+								<anubhav:AmazingButton  superman="onSuperman" text="AmazingButton"> </anubhav:AmazingButton>
+							<sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" layout="ResponsiveGridLayout" id="__form0">
+								<sap.ui.layout.form:content>
+									<core:Title text="Additional Data" id="__title0"/>
+									<Label text="Label 1" id="__label0"/>
+									<Text id="__text12" text="{type}"/>
+									<Label text="Label 2" id="__label1"/>
+									<Text id="__text19" text="{price}{currency}"/>
+									<!--  <Input width="100%" id="__input2"/>-->
+								</sap.ui.layout.form:content>
+							</sap.ui.layout.form:SimpleForm>
+						</content>
+					</IconTabFilter>
+					<IconTabFilter text="Suppliers" key="idSupp" icon="sap-icon://supplier" iconColor="Positive">
+						<content>
+							<Table items="{/suppliers}" noDataText="Drop column list items here and columns in the area above" id="idSubTab"
+							itemPress="onSelectRow">
+								<items>
+									<ColumnListItem type="Navigation">
+										<cells>
+											<Text text="{name}"/>
+											<Input xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" width="100%"
+												id="__input0" showValueHelp="true" valueHelpRequest="onValueHelp" value="{city}"/>
+											<Text text="{sinceWhen}"/>
+											<!--    <Text text="{status}"/>-->
+											<ObjectStatus text="{status}" state="{ path: 'status', formatter: '.formatter.setStatus }"/>
+										</cells>
+									</ColumnListItem>
+								</items>
+								<columns>
+									<Column>
+										<header>
+											<Label text="Name" id="__label2"/>
+										</header>
+									</Column>
+									<Column>
+										<header>
+											<Label text="City"/>
+										</header>
+									</Column>
+									<Column demandPopin="true" minScreenWidth="Tablet">
+										<header>
+											<Label text="SinceWhen"/>
+										</header>
+									</Column>
+									<Column demandPopin="true" minScreenWidth="Tablet" popinDisplay="WithoutHeader">
+										<header>
+											<Label text="Status"/>
+										</header>
+									</Column>
+								</columns>
+							</Table>
+						</content>
+					</IconTabFilter>
+					<IconTabFilter text="Select City" key="idCity" icon="sap-icon://home">
+						<content>
+							<Select items="{/city}" id="idCity1">
+								<items>
+									<core:ListItem text="{cityName}" key="{cityName}"></core:ListItem>
+								</items>
+							</Select>
+							<ComboBox items="{/city}" id="idCity2">
+								<items>
+									<core:ListItem text="{cityName}" key="{cityName}"></core:ListItem>
+								</items>
+							</ComboBox>
+							<MultiComboBox items="{/city}" id="idCity3">
+								<items>
+									<core:ListItem text="{cityName}" key="{cityName}"></core:ListItem>
+								</items>
+							</MultiComboBox>
+						</content>
+					</IconTabFilter>
+					<IconTabFilter text="Address" count="10" icon="sap-icon://target-group" iconColor="Positive" id="__filter3">
+						<core:Fragment fragmentName="oft.fiori.nov.fragments.AddressInfo" type="XML"></core:Fragment>
+						<core:Fragment fragmentName="oft.fiori.nov.fragments.AddressInfo" type="XML"></core:Fragment>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button text="Approve" type="Accept" press="onApprove"></Button>
+				<Button text="Reject" type="Reject" press="onReject"/>
+				<Button text="edit"/>
+				<Button text="Delete"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>
